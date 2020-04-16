@@ -1,0 +1,6 @@
+Passes in LLVM Passes should be added to LLVM project. It can be done simply by puting the pass code inside llvm/lib and updating the CMake in llvm/lib. Afterward, llvm should be rebuilded. Then, llvm directory and test cases directory should be passed to run.sh.
+
+The result will be available under test_dir/log/filename_AnalysisResults.log
+
+I created several simple test cases to check the functionallity of passes, and the ranker algorithm.
+The code is in the begining phase of development and functions and models are subject to change.
